@@ -1,22 +1,24 @@
-# officemall
+<img src="office.png">
 
-> Nuxt.js + Vuetify.js project
+# officemallv2
+
+> Vue.js + Vuex + Nuxt.js + Vuetify.js + Firebase
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-$ npm install # Or yarn install
+$ yarn # Or npm i
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+# for hot heload at localhost:3000
+$ yarn dev # Or npm run dev
 
-# build for production and launch server
-$ npm run build
-$ npm start
+# build for production
+$ yarn build # Or npm run build
+
+# launch server at localhost:3000
+$ yarn start # Or npm start
 
 # generate static project
-$ npm run generate
+$ yarn generate # Or npm run generate
 ```
-
-For detailed explanation on how things work, check out the [Nuxt.js](https://github.com/nuxt/nuxt.js) and [Vuetify.js](https://vuetifyjs.com/) documentation.
