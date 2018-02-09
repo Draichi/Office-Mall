@@ -25,7 +25,9 @@
     </v-navigation-drawer>
     <v-toolbar app>
       <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
-      <v-toolbar-title v-text="title"></v-toolbar-title>
+      <v-toolbar-title>
+        <img src="../static/v.png" alt="logo" height="35vh">
+      </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn
         fab
@@ -54,10 +56,10 @@
         drawer: false,
         items: [
           { icon: 'dashboard', title: 'Items', to: '/' },
-          { icon: 'shopping_cart', title: 'Cart', to: '/inspire' }
+          { icon: 'shopping_cart', title: 'Cart', to: '/inspire' },
+          { icon: 'shopping_cart', title: 'Home', to: '/items' }
         ],
-        miniVariant: true,
-        title: 'office'
+        miniVariant: true
       }
     }
   }
