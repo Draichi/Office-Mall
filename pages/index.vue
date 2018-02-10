@@ -1,3 +1,13 @@
 <template>
-  <p>fallaaa</p>
+  <p>{{ meetups }}</p>
 </template>
+
+<script>
+export default {
+  computed: {
+    meetups () {
+      return this.$store.getters.items
+    }
+  }
+}
+</script>
